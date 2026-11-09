@@ -1,10 +1,10 @@
 from branding import brand_header
 import tkinter as tk
 from ui_widgets import (RoundedPanel, fit_window_to_content, PlayTool, ActionButton,
-                        BG, SUM_TEXT, COLOR_HEX, TITLE_FONT)
+                        BG, SUM_TEXT, COLOR_HEX)
 from sounds import SoundPlayer
 from dataclasses import dataclass
-from typing import List, Set, Dict, Callable, Optional, Tuple
+from typing import List, Set, Dict, Callable
 from datetime import datetime
 
 

@@ -2,9 +2,9 @@ from branding import brand_header
 import tkinter as tk
 from ui_widgets import (RoundedPanel, GridCell, fit_window_to_content, PlayTool, ActionButton,
                         BG, SUM_TEXT, TEXT_BLACK, CELL_BG_DEFAULT, BORDER_SELECTED, BORDER_NORMAL,
-                        TILE_SIZE, TILE_BORDER, TILE_CONTENT, NUMBER_FONT, SUM_FONT, COLOR_HEX, TITLE_FONT)
+                        TILE_SIZE, TILE_BORDER, TILE_CONTENT, NUMBER_FONT, SUM_FONT, COLOR_HEX)
 from dataclasses import dataclass
-from typing import Optional, List, Tuple, Dict, Callable
+from typing import Optional, List, Tuple, Dict
 
 from play_view import GlassPlayView
 from nature_background import NatureBackground

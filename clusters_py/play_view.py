@@ -10,7 +10,7 @@ from background_library import choose_background
 from smooth_tiles import smooth_rectangle
 from glass_background import render_background
 from ui_widgets import (BG, SUM_TEXT, TEXT_BLACK, CELL_BG_DEFAULT, COLOR_HEX,
-                        NUMBER_FONT, SUM_FONT, TILE_SIZE, rounded_rectangle, draw_action_icon, TITLE_FONT)
+                        NUMBER_FONT, SUM_FONT, TILE_SIZE, draw_action_icon)
 
 
 TOOL_LABEL_FONT = ('Helvetica', 10)

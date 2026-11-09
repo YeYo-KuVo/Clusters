@@ -3,7 +3,6 @@ from __future__ import annotations
 from dataclasses import dataclass
 from typing import Dict, List, Optional, Sequence, Tuple, Set
 import random
-from collections import deque
 
 from solver import Puzzle, Coord, Val
 from bias import choose_block_sizes_biased
