@@ -38,7 +38,7 @@ class CellState:
     col: Optional[str] = None  # one of palette codes (e.g., "B","R","Y","V","P","G") or None
 
 
-class PlayEditor(tk.Tk):
+class PlayEditor(tk.Toplevel):
     """
     Mobile-style interaction:
       - Select ONE tool (number OR color) from palettes
@@ -52,8 +52,15 @@ class PlayEditor(tk.Tk):
       - Auto-check on completion
     """
 
-    def __init__(self, puzzle: Puzzle, solution: Dict[Coord, Val], bias_label: str, puzzle_id: str):
-        super().__init__()
+    def __init__(self, puzzle: Puzzle, solution: Dict[Coord, Val], bias_label: str, puzzle_id: str,
+                 on_complete=None, show_solution_reference=None, master=None):
+        # Share Home's Tcl interpreter. Standalone developer play owns a hidden
+        # root so its existing launch/close behavior remains available.
+        self._owns_root = master is None
+        self._app_root = tk.Tk() if self._owns_root else master
+        if self._owns_root:
+            self._app_root.withdraw()
+        super().__init__(self._app_root)
         self.withdraw()
         self.configure(bg=BG)
         self.title("Hui Pu — Play")
@@ -64,6 +71,8 @@ class PlayEditor(tk.Tk):
         self.solution = solution
         self.bias_label = bias_label  # "SMALL" / "BALANCED" / "BIG"
         self.puzzle_id = puzzle_id
+        self._on_complete = on_complete
+        self._completion_recorded = False
 
         self.R = puzzle.rows
         self.C = puzzle.cols
@@ -125,7 +134,7 @@ class PlayEditor(tk.Tk):
         self._update_tool_highlights()
         fit_window_to_content(self, scrollable=hasattr(self, 'play_view'))
         self.sounds.start_ambience()
-        if SHOW_SOLUTION_REFERENCE:
+        if (SHOW_SOLUTION_REFERENCE if show_solution_reference is None else show_solution_reference):
             self._open_solution_reference_window()
 
         # Key bindings
@@ -150,6 +159,8 @@ class PlayEditor(tk.Tk):
         if hasattr(self, "sounds"):
             self.sounds.close()
         super().destroy()
+        if self._owns_root:
+            self._app_root.destroy()
 
     def _snapshot_state(self) -> List[List[Tuple[Optional[int], Optional[str]]]]:
         snap = []
@@ -524,6 +535,8 @@ class PlayEditor(tk.Tk):
             state = 'idle' if not self._is_complete() else ('correct' if self._is_correct() else 'incorrect')
             view.show_result(state)
             self.status_label.config(text="")
+            if state == 'correct':
+                self._record_completion()
             return
         if not self._is_complete():
             self.status_label.config(text="")
@@ -531,13 +544,28 @@ class PlayEditor(tk.Tk):
 
         if self._is_correct():
             self.status_label.config(text="Congratulations — you successfully filled this Hui Pu grid!")
+            self._record_completion()
         else:
             self.status_label.config(text="Incorrect")
 
+    def _record_completion(self):
+        if self._on_complete is not None and not self._completion_recorded:
+            self._on_complete(self.puzzle_id)
+            self._completion_recorded = True
 
-def launch_play_editor(puzzle: Puzzle, solution: Dict[Coord, Val], bias_label: str, puzzle_id: str) -> bool:
-    editor = PlayEditor(puzzle, solution, bias_label, puzzle_id)
-    editor.mainloop()
+
+def launch_play_editor(puzzle: Puzzle, solution: Dict[Coord, Val], bias_label: str, puzzle_id: str,
+                       on_complete=None, show_solution_reference=None, wait_for_close=False,
+                       master=None) -> bool:
+    editor = PlayEditor(puzzle, solution, bias_label, puzzle_id,
+                        on_complete=on_complete, show_solution_reference=show_solution_reference,
+                        master=master)
+    if wait_for_close:
+        # Home remains withdrawn. Wait specifically for Play, rather than for
+        # every Tk window to close, so its Home action returns to the caller.
+        editor.wait_window()
+    else:
+        editor.mainloop()
     return editor.next_puzzle_requested
 
 

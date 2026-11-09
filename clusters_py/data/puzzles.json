@@ -1,0 +1,1651 @@
+{
+  "version": 1,
+  "puzzles": [
+    {
+      "id": "level-01-puzzle-01",
+      "seed": 11001,
+      "bias": "BALANCED",
+      "difficulty": "EASY",
+      "grid": {
+        "rows": 3,
+        "cols": 3
+      },
+      "allowed": {
+        "numbers": [
+          1,
+          2,
+          3
+        ],
+        "colors": [
+          "B",
+          "Y",
+          "V"
+        ]
+      },
+      "constraints": {
+        "row_sums": [
+          7,
+          6,
+          4
+        ],
+        "col_sums": [
+          5,
+          7,
+          5
+        ]
+      },
+      "givens": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 1,
+          "col": null
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 3,
+          "col": null
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 2,
+          "col": null
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 1,
+          "col": null
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 1,
+          "col": null
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": null,
+          "col": "Y"
+        }
+      ],
+      "solution": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 1,
+          "col": "Y"
+        }
+      ]
+    },
+    {
+      "id": "level-01-puzzle-02",
+      "seed": 11002,
+      "bias": "BALANCED",
+      "difficulty": "EASY",
+      "grid": {
+        "rows": 3,
+        "cols": 3
+      },
+      "allowed": {
+        "numbers": [
+          1,
+          2,
+          3
+        ],
+        "colors": [
+          "B",
+          "Y",
+          "V"
+        ]
+      },
+      "constraints": {
+        "row_sums": [
+          5,
+          9,
+          9
+        ],
+        "col_sums": [
+          7,
+          8,
+          8
+        ]
+      },
+      "givens": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": null,
+          "col": "B"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 2,
+          "col": null
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 2,
+          "col": null
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": null
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": null,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": null,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 3,
+          "col": null
+        }
+      ],
+      "solution": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        }
+      ]
+    },
+    {
+      "id": "level-01-puzzle-03",
+      "seed": 11003,
+      "bias": "BALANCED",
+      "difficulty": "EASY",
+      "grid": {
+        "rows": 3,
+        "cols": 3
+      },
+      "allowed": {
+        "numbers": [
+          1,
+          2,
+          3
+        ],
+        "colors": [
+          "B",
+          "Y",
+          "V"
+        ]
+      },
+      "constraints": {
+        "row_sums": [
+          8,
+          6,
+          9
+        ],
+        "col_sums": [
+          7,
+          9,
+          7
+        ]
+      },
+      "givens": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 3,
+          "col": null
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 3,
+          "col": null
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 3,
+          "col": null
+        }
+      ],
+      "solution": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 1,
+          "col": "V"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 3,
+          "col": "Y"
+        }
+      ]
+    },
+    {
+      "id": "level-01-puzzle-04",
+      "seed": 11004,
+      "bias": "BALANCED",
+      "difficulty": "EASY",
+      "grid": {
+        "rows": 3,
+        "cols": 3
+      },
+      "allowed": {
+        "numbers": [
+          1,
+          2,
+          3
+        ],
+        "colors": [
+          "B",
+          "Y",
+          "V"
+        ]
+      },
+      "constraints": {
+        "row_sums": [
+          6,
+          6,
+          7
+        ],
+        "col_sums": [
+          6,
+          8,
+          5
+        ]
+      },
+      "givens": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 2,
+          "col": null
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": null,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": null,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 2,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 3,
+          "col": null
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": null,
+          "col": "V"
+        }
+      ],
+      "solution": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 2,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 2,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 1,
+          "col": "V"
+        }
+      ]
+    },
+    {
+      "id": "level-01-puzzle-05",
+      "seed": 11005,
+      "bias": "BALANCED",
+      "difficulty": "EASY",
+      "grid": {
+        "rows": 3,
+        "cols": 4
+      },
+      "allowed": {
+        "numbers": [
+          1,
+          2,
+          3
+        ],
+        "colors": [
+          "B",
+          "Y",
+          "V"
+        ]
+      },
+      "constraints": {
+        "row_sums": [
+          9,
+          9,
+          6
+        ],
+        "col_sums": [
+          5,
+          5,
+          7,
+          7
+        ]
+      },
+      "givens": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": null,
+          "col": "B"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 2,
+          "col": null
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 2,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 2,
+          "col": null
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 1,
+          "col": null
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": null,
+          "col": "B"
+        }
+      ],
+      "solution": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 1,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 2,
+          "col": "B"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 2,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 1,
+          "col": "V"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "num": 2,
+          "col": "Y"
+        }
+      ]
+    },
+    {
+      "id": "level-01-puzzle-06",
+      "seed": 11006,
+      "bias": "BALANCED",
+      "difficulty": "EASY",
+      "grid": {
+        "rows": 3,
+        "cols": 4
+      },
+      "allowed": {
+        "numbers": [
+          1,
+          2,
+          3
+        ],
+        "colors": [
+          "B",
+          "Y",
+          "V"
+        ]
+      },
+      "constraints": {
+        "row_sums": [
+          8,
+          10,
+          8
+        ],
+        "col_sums": [
+          4,
+          8,
+          9,
+          5
+        ]
+      },
+      "givens": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 1,
+          "col": null
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 3,
+          "col": null
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 1,
+          "col": null
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "num": null,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "num": null,
+          "col": "Y"
+        }
+      ],
+      "solution": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 1,
+          "col": "Y"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "num": 1,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "num": 1,
+          "col": "Y"
+        }
+      ]
+    },
+    {
+      "id": "level-01-puzzle-07",
+      "seed": 11007,
+      "bias": "BALANCED",
+      "difficulty": "EASY",
+      "grid": {
+        "rows": 3,
+        "cols": 4
+      },
+      "allowed": {
+        "numbers": [
+          1,
+          2,
+          3
+        ],
+        "colors": [
+          "B",
+          "Y",
+          "V"
+        ]
+      },
+      "constraints": {
+        "row_sums": [
+          8,
+          10,
+          8
+        ],
+        "col_sums": [
+          3,
+          7,
+          8,
+          8
+        ]
+      },
+      "givens": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 1,
+          "col": null
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": null,
+          "col": "B"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 3,
+          "col": null
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "num": 3,
+          "col": null
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": null,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "num": 3,
+          "col": null
+        }
+      ],
+      "solution": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 1,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 3,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 1,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 3,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 1,
+          "col": "V"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 3,
+          "num": 3,
+          "col": "Y"
+        }
+      ]
+    },
+    {
+      "id": "level-01-puzzle-08",
+      "seed": 11008,
+      "bias": "BALANCED",
+      "difficulty": "EASY",
+      "grid": {
+        "rows": 4,
+        "cols": 3
+      },
+      "allowed": {
+        "numbers": [
+          1,
+          2,
+          3
+        ],
+        "colors": [
+          "B",
+          "Y",
+          "V"
+        ]
+      },
+      "constraints": {
+        "row_sums": [
+          7,
+          7,
+          5,
+          9
+        ],
+        "col_sums": [
+          8,
+          12,
+          8
+        ]
+      },
+      "givens": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 2,
+          "col": null
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 2,
+          "col": null
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": null,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "num": 3,
+          "col": "Y"
+        }
+      ],
+      "solution": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 3,
+          "col": "V"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "num": 3,
+          "col": "Y"
+        }
+      ]
+    },
+    {
+      "id": "level-01-puzzle-09",
+      "seed": 11009,
+      "bias": "BALANCED",
+      "difficulty": "EASY",
+      "grid": {
+        "rows": 4,
+        "cols": 3
+      },
+      "allowed": {
+        "numbers": [
+          1,
+          2,
+          3
+        ],
+        "colors": [
+          "B",
+          "Y",
+          "V"
+        ]
+      },
+      "constraints": {
+        "row_sums": [
+          3,
+          7,
+          7,
+          7
+        ],
+        "col_sums": [
+          7,
+          7,
+          10
+        ]
+      },
+      "givens": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 1,
+          "col": null
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 1,
+          "col": null
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 2,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 2,
+          "col": null
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 3,
+          "col": null
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "num": 3,
+          "col": "Y"
+        }
+      ],
+      "solution": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 1,
+          "col": "Y"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 1,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 2,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 2,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "num": 3,
+          "col": "Y"
+        }
+      ]
+    },
+    {
+      "id": "level-01-puzzle-10",
+      "seed": 11010,
+      "bias": "BALANCED",
+      "difficulty": "EASY",
+      "grid": {
+        "rows": 4,
+        "cols": 3
+      },
+      "allowed": {
+        "numbers": [
+          1,
+          2,
+          3
+        ],
+        "colors": [
+          "B",
+          "Y",
+          "V"
+        ]
+      },
+      "constraints": {
+        "row_sums": [
+          5,
+          5,
+          9,
+          9
+        ],
+        "col_sums": [
+          8,
+          10,
+          10
+        ]
+      },
+      "givens": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": null,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 1,
+          "col": null
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": null,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "num": 3,
+          "col": null
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        }
+      ],
+      "solution": [
+        {
+          "r": 0,
+          "c": 0,
+          "num": 1,
+          "col": "Y"
+        },
+        {
+          "r": 0,
+          "c": 1,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 0,
+          "c": 2,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 1,
+          "c": 0,
+          "num": 1,
+          "col": "B"
+        },
+        {
+          "r": 1,
+          "c": 1,
+          "num": 2,
+          "col": "V"
+        },
+        {
+          "r": 1,
+          "c": 2,
+          "num": 2,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 1,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 2,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 3,
+          "c": 0,
+          "num": 3,
+          "col": "Y"
+        },
+        {
+          "r": 3,
+          "c": 1,
+          "num": 3,
+          "col": "B"
+        },
+        {
+          "r": 3,
+          "c": 2,
+          "num": 3,
+          "col": "B"
+        }
+      ]
+    }
+  ]
+}

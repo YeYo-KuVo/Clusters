@@ -90,7 +90,7 @@ class PlayResultTests(unittest.TestCase):
                     texts[item] = (x, y, options)
                     return item
                 view = SimpleNamespace(
-                    _revision=0, owner=owner, background_visible=False,
+                    _revision=0, _results=Mock(), owner=owner, background_visible=False,
                     _word_images=[Mock(), Mock()], create_image=Mock(),
                     background_asset=None, delete=Mock(), configure=Mock(), create_text=create_text,
                     bbox=lambda item: (0, texts[item][1]-15, 100, texts[item][1]+15),
@@ -143,7 +143,7 @@ class PlayResultTests(unittest.TestCase):
 
     def test_detection_without_bottom_sentence_for_each_state(self):
         owner = SimpleNamespace(play_view=Mock(), status_label=Mock(),
-                                _is_complete=Mock(), _is_correct=Mock())
+                                _is_complete=Mock(), _is_correct=Mock(), _record_completion=Mock())
         for complete, correct, state in [(False, False, 'idle'),
                                          (True, False, 'incorrect'), (True, True, 'correct')]:
             with self.subTest(state=state):

@@ -271,14 +271,15 @@ class GlassPlayView(tk.Canvas):
         owner._update_lock_ui()
         owner._update_tool_highlights()
         asset = self.background_asset if self.background_visible else None
+        results = self._results
 
         def render():
             try:
                 with tempfile.TemporaryDirectory(prefix='clusters-glass-', ignore_cleanup_errors=True) as directory:
                     file = render_background(asset, width, content_height, panels, directory)
-                    self._results.put((revision, file.read_bytes(), None))
+                    results.put((revision, file.read_bytes(), None))
             except Exception as error:
-                self._results.put((revision, None, error))
+                results.put((revision, None, error))
         Thread(target=render, daemon=True).start()
 
     def _poll(self):
