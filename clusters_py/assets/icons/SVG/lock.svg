@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="1024" height="1024" role="img" aria-label="Clusters lock icon">
+<title>Clusters lock</title><g stroke="#59392E" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="28" y="58" width="72" height="53" rx="9"/>
+    <path d="M43 58 V42 C43 14 85 14 85 42 V58"/>
+    <circle cx="64" cy="80" r="4.2" stroke="none" fill="#59392E"/>
+    <path d="M64 84.5 V94"/>
+</g></svg>

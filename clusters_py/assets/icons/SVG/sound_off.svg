@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="1024" height="1024" role="img" aria-label="Clusters sound off icon">
+<title>Clusters sound off</title><defs><mask id="cut"><rect width="128" height="128" fill="white"/><path d="M23 105 L106 22" stroke="black" stroke-width="14" stroke-linecap="round"/></mask></defs><g mask="url(#cut)"><g stroke="#59392E" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M23 52 H40 L61 35 V93 L40 76 H23 Q19 76 19 72 V56 Q19 52 23 52 Z"/>
+    <path d="M73 49 C82 57 82 71 73 79"/>
+    <path d="M84 37 C100 51 100 77 84 91"/>
+</g></g><path d="M23 105 L106 22" stroke="#59392E" stroke-width="7.2" stroke-linecap="round"/></svg>

@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Clusters: Python editor",
+      "type": "debugpy",
+      "request": "launch",
+      "python": "/opt/homebrew/bin/python3.11",
+      "program": "${workspaceFolder}/clusters_py/main.py",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}

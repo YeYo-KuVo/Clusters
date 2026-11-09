@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="1024" height="1024" role="img" aria-label="Clusters background off icon">
+<title>Clusters background off</title><defs><mask id="cut"><rect width="128" height="128" fill="white"/><path d="M23 105 L106 22" stroke="black" stroke-width="14" stroke-linecap="round"/></mask></defs><g mask="url(#cut)"><g stroke="#59392E" stroke-width="7.2" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <rect x="21" y="22" width="86" height="84" rx="8"/>
+    <circle cx="83" cy="45" r="7.2" stroke="none" fill="#59392E"/>
+    <path d="M27 89 L48 61 L68 82 L82 68 L101 89"/>
+</g></g><path d="M23 105 L106 22" stroke="#59392E" stroke-width="7.2" stroke-linecap="round"/></svg>

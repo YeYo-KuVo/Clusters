@@ -1,0 +1,114 @@
+[
+  {
+    "name": "cacao_blossoms",
+    "original": "cacao_blossoms.png",
+    "original_size": [
+      941,
+      1672
+    ],
+    "mobile_export": "mobile/cacao_blossoms.png",
+    "mobile_size": [
+      2160,
+      3840
+    ],
+    "mobile_upscaled": true
+  },
+  {
+    "name": "coconut_coast",
+    "original": "coconut_coast.png",
+    "original_size": [
+      941,
+      1672
+    ],
+    "mobile_export": "mobile/coconut_coast.png",
+    "mobile_size": [
+      2160,
+      3840
+    ],
+    "mobile_upscaled": true
+  },
+  {
+    "name": "guava_paradise",
+    "original": "guava_paradise.png",
+    "original_size": [
+      941,
+      1672
+    ],
+    "mobile_export": "mobile/guava_paradise.png",
+    "mobile_size": [
+      2160,
+      3840
+    ],
+    "mobile_upscaled": true
+  },
+  {
+    "name": "hibiscus_papaya",
+    "original": "hibiscus_papaya.png",
+    "original_size": [
+      941,
+      1672
+    ],
+    "mobile_export": "mobile/hibiscus_papaya.png",
+    "mobile_size": [
+      2160,
+      3840
+    ],
+    "mobile_upscaled": true
+  },
+  {
+    "name": "orchid_lagoon",
+    "original": "orchid_lagoon.png",
+    "original_size": [
+      941,
+      1672
+    ],
+    "mobile_export": "mobile/orchid_lagoon.png",
+    "mobile_size": [
+      2160,
+      3840
+    ],
+    "mobile_upscaled": true
+  },
+  {
+    "name": "passionfruit_garden",
+    "original": "passionfruit_garden.png",
+    "original_size": [
+      941,
+      1672
+    ],
+    "mobile_export": "mobile/passionfruit_garden.png",
+    "mobile_size": [
+      2160,
+      3840
+    ],
+    "mobile_upscaled": true
+  },
+  {
+    "name": "starfruit_banana",
+    "original": "starfruit_banana.png",
+    "original_size": [
+      941,
+      1672
+    ],
+    "mobile_export": "mobile/starfruit_banana.png",
+    "mobile_size": [
+      2160,
+      3840
+    ],
+    "mobile_upscaled": true
+  },
+  {
+    "name": "tropical_pastel",
+    "original": "tropical_pastel.png",
+    "original_size": [
+      1024,
+      1536
+    ],
+    "mobile_export": "mobile/tropical_pastel.png",
+    "mobile_size": [
+      2160,
+      3840
+    ],
+    "mobile_upscaled": true
+  }
+]
